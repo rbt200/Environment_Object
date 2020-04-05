@@ -45,7 +45,7 @@ class SelectedTheme: ObservableObject {
         if let _ = theme as? Theme1 {
             theme = availableThemes[1]
         } else {
-            
+            theme = availableThemes[0]
         }
     }
 }
